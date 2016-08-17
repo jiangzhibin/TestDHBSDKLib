@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF128C5A1D64604400681395 /* libDHBSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF128C4D1D64604400681395 /* libDHBSDK.a */; };
+		BF128C5B1D64604400681395 /* 0_mtyF_full.zip in Resources */ = {isa = PBXBuildFile; fileRef = BF128C4F1D64604400681395 /* 0_mtyF_full.zip */; };
+		BF128C5C1D64604400681395 /* service_icon.zip in Resources */ = {isa = PBXBuildFile; fileRef = BF128C501D64604400681395 /* service_icon.zip */; };
 		BF2373C61D64365A00DF47DC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2373C51D64365A00DF47DC /* libz.tbd */; };
 		BF2373C81D64366B00DF47DC /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2373C71D64366B00DF47DC /* libc++.tbd */; };
 		BF2373CA1D64367000DF47DC /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2373C91D64367000DF47DC /* libbz2.tbd */; };
-		BF2373DC1D64376400DF47DC /* libDHBSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2373CF1D64376400DF47DC /* libDHBSDK.a */; };
-		BF2373DD1D64376400DF47DC /* 0_mtyF_full.zip in Resources */ = {isa = PBXBuildFile; fileRef = BF2373D11D64376400DF47DC /* 0_mtyF_full.zip */; };
-		BF2373DE1D64376400DF47DC /* service_icon.zip in Resources */ = {isa = PBXBuildFile; fileRef = BF2373D21D64376400DF47DC /* service_icon.zip */; };
 		BF2373E81D64396200DF47DC /* CallDirectoryHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2373E71D64396200DF47DC /* CallDirectoryHandler.m */; };
 		BF2373EC1D64396200DF47DC /* DHBCallDirectory.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BF2373E41D64396200DF47DC /* DHBCallDirectory.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		BFF01E5D1D6435D000DEF35E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF01E5C1D6435D000DEF35E /* main.m */; };
@@ -48,19 +48,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BF128C4C1D64604400681395 /* DHBSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDK.h; sourceTree = "<group>"; };
+		BF128C4D1D64604400681395 /* libDHBSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDHBSDK.a; sourceTree = "<group>"; };
+		BF128C4F1D64604400681395 /* 0_mtyF_full.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = 0_mtyF_full.zip; sourceTree = "<group>"; };
+		BF128C501D64604400681395 /* service_icon.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = service_icon.zip; sourceTree = "<group>"; };
+		BF128C541D64604400681395 /* DHBErrorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBErrorHelper.h; sourceTree = "<group>"; };
+		BF128C551D64604400681395 /* DHBSDKApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKApiManager.h; sourceTree = "<group>"; };
+		BF128C561D64604400681395 /* DHBSDKCommonType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKCommonType.h; sourceTree = "<group>"; };
+		BF128C571D64604400681395 /* DHBSDKNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKNetworkManager.h; sourceTree = "<group>"; };
+		BF128C581D64604400681395 /* DHBSDKResolveFecherNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKResolveFecherNew.h; sourceTree = "<group>"; };
+		BF128C591D64604400681395 /* DHBSDKResolveItemNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKResolveItemNew.h; sourceTree = "<group>"; };
 		BF2373C51D64365A00DF47DC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		BF2373C71D64366B00DF47DC /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		BF2373C91D64367000DF47DC /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
-		BF2373CE1D64376400DF47DC /* DHBSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDK.h; sourceTree = "<group>"; };
-		BF2373CF1D64376400DF47DC /* libDHBSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDHBSDK.a; sourceTree = "<group>"; };
-		BF2373D11D64376400DF47DC /* 0_mtyF_full.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = 0_mtyF_full.zip; sourceTree = "<group>"; };
-		BF2373D21D64376400DF47DC /* service_icon.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = service_icon.zip; sourceTree = "<group>"; };
-		BF2373D61D64376400DF47DC /* DHBErrorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBErrorHelper.h; sourceTree = "<group>"; };
-		BF2373D71D64376400DF47DC /* DHBSDKApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKApiManager.h; sourceTree = "<group>"; };
-		BF2373D81D64376400DF47DC /* DHBSDKCommonType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKCommonType.h; sourceTree = "<group>"; };
-		BF2373D91D64376400DF47DC /* DHBSDKNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKNetworkManager.h; sourceTree = "<group>"; };
-		BF2373DA1D64376400DF47DC /* DHBSDKResolveFecherNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKResolveFecherNew.h; sourceTree = "<group>"; };
-		BF2373DB1D64376400DF47DC /* DHBSDKResolveItemNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKResolveItemNew.h; sourceTree = "<group>"; };
 		BF2373DF1D64384100DF47DC /* TestDHBSDKLib.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestDHBSDKLib.entitlements; sourceTree = "<group>"; };
 		BF2373E41D64396200DF47DC /* DHBCallDirectory.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DHBCallDirectory.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF2373E61D64396200DF47DC /* CallDirectoryHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallDirectoryHandler.h; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF2373CA1D64367000DF47DC /* libbz2.tbd in Frameworks */,
-				BF2373DC1D64376400DF47DC /* libDHBSDK.a in Frameworks */,
+				BF128C5A1D64604400681395 /* libDHBSDK.a in Frameworks */,
 				BF2373C81D64366B00DF47DC /* libc++.tbd in Frameworks */,
 				BF2373C61D64365A00DF47DC /* libz.tbd in Frameworks */,
 			);
@@ -100,6 +100,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF128C491D64604400681395 /* DHBSDK */ = {
+			isa = PBXGroup;
+			children = (
+				BF128C4A1D64604400681395 /* include */,
+				BF128C4D1D64604400681395 /* libDHBSDK.a */,
+				BF128C4E1D64604400681395 /* Resources */,
+				BF128C511D64604400681395 /* usr */,
+			);
+			path = DHBSDK;
+			sourceTree = "<group>";
+		};
+		BF128C4A1D64604400681395 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				BF128C4B1D64604400681395 /* DHBSDK */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		BF128C4B1D64604400681395 /* DHBSDK */ = {
+			isa = PBXGroup;
+			children = (
+				BF128C4C1D64604400681395 /* DHBSDK.h */,
+			);
+			path = DHBSDK;
+			sourceTree = "<group>";
+		};
+		BF128C4E1D64604400681395 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF128C4F1D64604400681395 /* 0_mtyF_full.zip */,
+				BF128C501D64604400681395 /* service_icon.zip */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BF128C511D64604400681395 /* usr */ = {
+			isa = PBXGroup;
+			children = (
+				BF128C521D64604400681395 /* local */,
+			);
+			path = usr;
+			sourceTree = "<group>";
+		};
+		BF128C521D64604400681395 /* local */ = {
+			isa = PBXGroup;
+			children = (
+				BF128C531D64604400681395 /* include */,
+			);
+			path = local;
+			sourceTree = "<group>";
+		};
+		BF128C531D64604400681395 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				BF128C541D64604400681395 /* DHBErrorHelper.h */,
+				BF128C551D64604400681395 /* DHBSDKApiManager.h */,
+				BF128C561D64604400681395 /* DHBSDKCommonType.h */,
+				BF128C571D64604400681395 /* DHBSDKNetworkManager.h */,
+				BF128C581D64604400681395 /* DHBSDKResolveFecherNew.h */,
+				BF128C591D64604400681395 /* DHBSDKResolveItemNew.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
 		BF2373C41D64365A00DF47DC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,71 +173,6 @@
 				BF2373C51D64365A00DF47DC /* libz.tbd */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BF2373CB1D64376400DF47DC /* DHBSDK */ = {
-			isa = PBXGroup;
-			children = (
-				BF2373CC1D64376400DF47DC /* include */,
-				BF2373CF1D64376400DF47DC /* libDHBSDK.a */,
-				BF2373D01D64376400DF47DC /* Resources */,
-				BF2373D31D64376400DF47DC /* usr */,
-			);
-			path = DHBSDK;
-			sourceTree = "<group>";
-		};
-		BF2373CC1D64376400DF47DC /* include */ = {
-			isa = PBXGroup;
-			children = (
-				BF2373CD1D64376400DF47DC /* DHBSDK */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		BF2373CD1D64376400DF47DC /* DHBSDK */ = {
-			isa = PBXGroup;
-			children = (
-				BF2373CE1D64376400DF47DC /* DHBSDK.h */,
-			);
-			path = DHBSDK;
-			sourceTree = "<group>";
-		};
-		BF2373D01D64376400DF47DC /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				BF2373D11D64376400DF47DC /* 0_mtyF_full.zip */,
-				BF2373D21D64376400DF47DC /* service_icon.zip */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		BF2373D31D64376400DF47DC /* usr */ = {
-			isa = PBXGroup;
-			children = (
-				BF2373D41D64376400DF47DC /* local */,
-			);
-			path = usr;
-			sourceTree = "<group>";
-		};
-		BF2373D41D64376400DF47DC /* local */ = {
-			isa = PBXGroup;
-			children = (
-				BF2373D51D64376400DF47DC /* include */,
-			);
-			path = local;
-			sourceTree = "<group>";
-		};
-		BF2373D51D64376400DF47DC /* include */ = {
-			isa = PBXGroup;
-			children = (
-				BF2373D61D64376400DF47DC /* DHBErrorHelper.h */,
-				BF2373D71D64376400DF47DC /* DHBSDKApiManager.h */,
-				BF2373D81D64376400DF47DC /* DHBSDKCommonType.h */,
-				BF2373D91D64376400DF47DC /* DHBSDKNetworkManager.h */,
-				BF2373DA1D64376400DF47DC /* DHBSDKResolveFecherNew.h */,
-				BF2373DB1D64376400DF47DC /* DHBSDKResolveItemNew.h */,
-			);
-			path = include;
 			sourceTree = "<group>";
 		};
 		BF2373E51D64396200DF47DC /* DHBCallDirectory */ = {
@@ -208,7 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				BF2373DF1D64384100DF47DC /* TestDHBSDKLib.entitlements */,
-				BF2373CB1D64376400DF47DC /* DHBSDK */,
+				BF128C491D64604400681395 /* DHBSDK */,
 				BFF01E5E1D6435D000DEF35E /* AppDelegate.h */,
 				BFF01E5F1D6435D000DEF35E /* AppDelegate.m */,
 				BFF01E611D6435D000DEF35E /* ViewController.h */,
@@ -327,10 +327,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFF01E6B1D6435D000DEF35E /* LaunchScreen.storyboard in Resources */,
-				BF2373DD1D64376400DF47DC /* 0_mtyF_full.zip in Resources */,
+				BF128C5B1D64604400681395 /* 0_mtyF_full.zip in Resources */,
 				BFF01E681D6435D000DEF35E /* Assets.xcassets in Resources */,
 				BFF01E661D6435D000DEF35E /* Main.storyboard in Resources */,
-				BF2373DE1D64376400DF47DC /* service_icon.zip in Resources */,
+				BF128C5C1D64604400681395 /* service_icon.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,6 +553,7 @@
 				BF2373EF1D64396200DF47DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFF01E531D6435D000DEF35E /* Build configuration list for PBXProject "TestDHBSDKLib" */ = {
 			isa = XCConfigurationList;

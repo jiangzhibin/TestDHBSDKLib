@@ -23,7 +23,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="donwload"/>
                                 <connections>
-                                    <action selector="downloadAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9MQ-pA-PFn"/>
+                                    <action selector="downloadAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UWd-2m-MXO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oub-CO-oE5">
@@ -31,7 +31,23 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="accessData"/>
                                 <connections>
-                                    <action selector="accessDataAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lwd-kX-iRm"/>
+                                    <action selector="accessDataAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vT6-zJ-VKK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Equ-KO-MEr">
+                                <frame key="frameInset" minX="49" minY="450" width="67" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="在线标记"/>
+                                <connections>
+                                    <action selector="onlineMarkAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="myK-Uw-r6s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuq-vh-jxU">
+                                <frame key="frameInset" minX="226" minY="450" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="在线识别"/>
+                                <connections>
+                                    <action selector="onlineRecognizeAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uOK-9U-MAO"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -40,6 +56,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="140" y="115.59220389805098"/>
         </scene>
     </scenes>
 </document>
