@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF24E6DA1D648EA300AA99CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF24E6D91D648EA300AA99CB /* main.m */; };
+		BF24E6DD1D648EA300AA99CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF24E6DC1D648EA300AA99CB /* AppDelegate.m */; };
+		BF24E6E01D648EA300AA99CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF24E6DF1D648EA300AA99CB /* ViewController.m */; };
+		BF24E6E31D648EA300AA99CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF24E6E11D648EA300AA99CB /* Main.storyboard */; };
+		BF24E6E51D648EA300AA99CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF24E6E41D648EA300AA99CB /* Assets.xcassets */; };
+		BF24E6E81D648EA300AA99CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF24E6E61D648EA300AA99CB /* LaunchScreen.storyboard */; };
+		BF24E7001D648EB800AA99CB /* libDHBSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF24E6F31D648EB800AA99CB /* libDHBSDK.a */; };
+		BF24E7011D648EB800AA99CB /* 0_mtyF_full.zip in Resources */ = {isa = PBXBuildFile; fileRef = BF24E6F51D648EB800AA99CB /* 0_mtyF_full.zip */; };
+		BF24E7021D648EB800AA99CB /* service_icon.zip in Resources */ = {isa = PBXBuildFile; fileRef = BF24E6F61D648EB800AA99CB /* service_icon.zip */; };
+		BF24E7041D648F3500AA99CB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BF24E7031D648F3500AA99CB /* README.md */; };
+		BF24E7071D648FDC00AA99CB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF24E7061D648FDC00AA99CB /* libc++.tbd */; };
+		BF24E7091D648FE800AA99CB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF24E7081D648FE800AA99CB /* libz.tbd */; };
+		BF24E70B1D648FEE00AA99CB /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF24E70A1D648FEE00AA99CB /* libbz2.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF24E6D51D648EA300AA99CB /* DHBSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHBSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF24E6D91D648EA300AA99CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF24E6DB1D648EA300AA99CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF24E6DC1D648EA300AA99CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF24E6DE1D648EA300AA99CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF24E6DF1D648EA300AA99CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF24E6E21D648EA300AA99CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF24E6E41D648EA300AA99CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF24E6E71D648EA300AA99CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF24E6E91D648EA300AA99CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF24E6F21D648EB800AA99CB /* DHBSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDK.h; sourceTree = "<group>"; };
+		BF24E6F31D648EB800AA99CB /* libDHBSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDHBSDK.a; sourceTree = "<group>"; };
+		BF24E6F51D648EB800AA99CB /* 0_mtyF_full.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = 0_mtyF_full.zip; sourceTree = "<group>"; };
+		BF24E6F61D648EB800AA99CB /* service_icon.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = service_icon.zip; sourceTree = "<group>"; };
+		BF24E6FA1D648EB800AA99CB /* DHBErrorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBErrorHelper.h; sourceTree = "<group>"; };
+		BF24E6FB1D648EB800AA99CB /* DHBSDKApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKApiManager.h; sourceTree = "<group>"; };
+		BF24E6FC1D648EB800AA99CB /* DHBSDKCommonType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKCommonType.h; sourceTree = "<group>"; };
+		BF24E6FD1D648EB800AA99CB /* DHBSDKNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKNetworkManager.h; sourceTree = "<group>"; };
+		BF24E6FE1D648EB800AA99CB /* DHBSDKResolveFecherNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKResolveFecherNew.h; sourceTree = "<group>"; };
+		BF24E6FF1D648EB800AA99CB /* DHBSDKResolveItemNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKResolveItemNew.h; sourceTree = "<group>"; };
+		BF24E7031D648F3500AA99CB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BF24E7061D648FDC00AA99CB /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		BF24E7081D648FE800AA99CB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		BF24E70A1D648FEE00AA99CB /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF24E6D21D648EA300AA99CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF24E70B1D648FEE00AA99CB /* libbz2.tbd in Frameworks */,
+				BF24E7091D648FE800AA99CB /* libz.tbd in Frameworks */,
+				BF24E7071D648FDC00AA99CB /* libc++.tbd in Frameworks */,
+				BF24E7001D648EB800AA99CB /* libDHBSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF24E6CC1D648EA300AA99CB = {
+			isa = PBXGroup;
+			children = (
+				BF24E7031D648F3500AA99CB /* README.md */,
+				BF24E6D71D648EA300AA99CB /* DHBSDKDemo */,
+				BF24E6D61D648EA300AA99CB /* Products */,
+				BF24E7051D648FDC00AA99CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF24E6D61D648EA300AA99CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF24E6D51D648EA300AA99CB /* DHBSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF24E6D71D648EA300AA99CB /* DHBSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BF24E6EF1D648EB800AA99CB /* DHBSDK */,
+				BF24E6DB1D648EA300AA99CB /* AppDelegate.h */,
+				BF24E6DC1D648EA300AA99CB /* AppDelegate.m */,
+				BF24E6DE1D648EA300AA99CB /* ViewController.h */,
+				BF24E6DF1D648EA300AA99CB /* ViewController.m */,
+				BF24E6E11D648EA300AA99CB /* Main.storyboard */,
+				BF24E6E41D648EA300AA99CB /* Assets.xcassets */,
+				BF24E6E61D648EA300AA99CB /* LaunchScreen.storyboard */,
+				BF24E6E91D648EA300AA99CB /* Info.plist */,
+				BF24E6D81D648EA300AA99CB /* Supporting Files */,
+			);
+			path = DHBSDKDemo;
+			sourceTree = "<group>";
+		};
+		BF24E6D81D648EA300AA99CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF24E6D91D648EA300AA99CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF24E6EF1D648EB800AA99CB /* DHBSDK */ = {
+			isa = PBXGroup;
+			children = (
+				BF24E6F01D648EB800AA99CB /* include */,
+				BF24E6F31D648EB800AA99CB /* libDHBSDK.a */,
+				BF24E6F41D648EB800AA99CB /* Resources */,
+				BF24E6F71D648EB800AA99CB /* usr */,
+			);
+			path = DHBSDK;
+			sourceTree = "<group>";
+		};
+		BF24E6F01D648EB800AA99CB /* include */ = {
+			isa = PBXGroup;
+			children = (
+				BF24E6F11D648EB800AA99CB /* DHBSDK */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		BF24E6F11D648EB800AA99CB /* DHBSDK */ = {
+			isa = PBXGroup;
+			children = (
+				BF24E6F21D648EB800AA99CB /* DHBSDK.h */,
+			);
+			path = DHBSDK;
+			sourceTree = "<group>";
+		};
+		BF24E6F41D648EB800AA99CB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF24E6F51D648EB800AA99CB /* 0_mtyF_full.zip */,
+				BF24E6F61D648EB800AA99CB /* service_icon.zip */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BF24E6F71D648EB800AA99CB /* usr */ = {
+			isa = PBXGroup;
+			children = (
+				BF24E6F81D648EB800AA99CB /* local */,
+			);
+			path = usr;
+			sourceTree = "<group>";
+		};
+		BF24E6F81D648EB800AA99CB /* local */ = {
+			isa = PBXGroup;
+			children = (
+				BF24E6F91D648EB800AA99CB /* include */,
+			);
+			path = local;
+			sourceTree = "<group>";
+		};
+		BF24E6F91D648EB800AA99CB /* include */ = {
+			isa = PBXGroup;
+			children = (
+				BF24E6FA1D648EB800AA99CB /* DHBErrorHelper.h */,
+				BF24E6FB1D648EB800AA99CB /* DHBSDKApiManager.h */,
+				BF24E6FC1D648EB800AA99CB /* DHBSDKCommonType.h */,
+				BF24E6FD1D648EB800AA99CB /* DHBSDKNetworkManager.h */,
+				BF24E6FE1D648EB800AA99CB /* DHBSDKResolveFecherNew.h */,
+				BF24E6FF1D648EB800AA99CB /* DHBSDKResolveItemNew.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		BF24E7051D648FDC00AA99CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF24E70A1D648FEE00AA99CB /* libbz2.tbd */,
+				BF24E7081D648FE800AA99CB /* libz.tbd */,
+				BF24E7061D648FDC00AA99CB /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF24E6D41D648EA300AA99CB /* DHBSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF24E6EC1D648EA300AA99CB /* Build configuration list for PBXNativeTarget "DHBSDKDemo" */;
+			buildPhases = (
+				BF24E6D11D648EA300AA99CB /* Sources */,
+				BF24E6D21D648EA300AA99CB /* Frameworks */,
+				BF24E6D31D648EA300AA99CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DHBSDKDemo;
+			productName = DHBSDKDemo;
+			productReference = BF24E6D51D648EA300AA99CB /* DHBSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF24E6CD1D648EA300AA99CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = yulore;
+				TargetAttributes = {
+					BF24E6D41D648EA300AA99CB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = B66KMZ39N5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BF24E6D01D648EA300AA99CB /* Build configuration list for PBXProject "DHBSDKDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF24E6CC1D648EA300AA99CB;
+			productRefGroup = BF24E6D61D648EA300AA99CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF24E6D41D648EA300AA99CB /* DHBSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF24E6D31D648EA300AA99CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF24E6E81D648EA300AA99CB /* LaunchScreen.storyboard in Resources */,
+				BF24E7011D648EB800AA99CB /* 0_mtyF_full.zip in Resources */,
+				BF24E6E51D648EA300AA99CB /* Assets.xcassets in Resources */,
+				BF24E6E31D648EA300AA99CB /* Main.storyboard in Resources */,
+				BF24E7021D648EB800AA99CB /* service_icon.zip in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF24E6D11D648EA300AA99CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF24E6E01D648EA300AA99CB /* ViewController.m in Sources */,
+				BF24E6DD1D648EA300AA99CB /* AppDelegate.m in Sources */,
+				BF24E7041D648F3500AA99CB /* README.md in Sources */,
+				BF24E6DA1D648EA300AA99CB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF24E6E11D648EA300AA99CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF24E6E21D648EA300AA99CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF24E6E61D648EA300AA99CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF24E6E71D648EA300AA99CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF24E6EA1D648EA300AA99CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF24E6EB1D648EA300AA99CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF24E6ED1D648EA300AA99CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B66KMZ39N5;
+				INFOPLIST_FILE = DHBSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DHBSDKDemo/DHBSDK",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulore.DHBSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF24E6EE1D648EA300AA99CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B66KMZ39N5;
+				INFOPLIST_FILE = DHBSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DHBSDKDemo/DHBSDK",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulore.DHBSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF24E6D01D648EA300AA99CB /* Build configuration list for PBXProject "DHBSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF24E6EA1D648EA300AA99CB /* Debug */,
+				BF24E6EB1D648EA300AA99CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF24E6EC1D648EA300AA99CB /* Build configuration list for PBXNativeTarget "DHBSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF24E6ED1D648EA300AA99CB /* Debug */,
+				BF24E6EE1D648EA300AA99CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF24E6CD1D648EA300AA99CB /* Project object */;
+}
