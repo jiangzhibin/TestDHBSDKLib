@@ -28,9 +28,7 @@
                              host:kDHBHost
                            cityId:nil
              shareGroupIdentifier:nil
-                  completionBlock:^(NSError *error) {
-                      ;
-                  }];
+                  completionBlock:nil];
     
     [DHBSDKApiManager dataInfoFetcherCompletionHandler:^(DHBSDKUpdateItem *updateItem, NSError *error) {
         NSLog(@"%@",updateItem);

@@ -15,7 +15,7 @@ signature:APISIG2
 host:kDHBHost
 cityId:nil
 shareGroupIdentifier:nil
-completionBlock:^(NSError *error)]
+completionBlock:nil];
 [3]现用到以下两组key
 下载及更新包信息获取:
 #define APIKEY @"mtyFwikuZ8ARgmwhljlidzxbevhrWrjL"
