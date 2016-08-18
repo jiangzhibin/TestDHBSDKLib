@@ -67,12 +67,12 @@
                            DHBDownloadPackageTypeFull
                            */
                           
-                          //            updateItem.fullMD5 = @"a19a05255a33b5384641e9dd740524be";
-                          //            updateItem.fullDownloadPath = @"http://s3.dianhua.cn/chk/flag/1_mtyF_flag_86_61.zip";
-                          //            updateItem.fullSize = 2698755;
-                          //            updateItem.fullVersion = 61;
+//                                      updateItem.fullMD5 = @"a19a05255a33b5384641e9dd740524be";
+//                                      updateItem.fullDownloadPath = @"http://s3.dianhua.cn/chk/flag/1_mtyF_flag_86_61.zip";
+//                                      updateItem.fullSize = 2698755;
+//                                      updateItem.fullVersion = 61;
                           
-                          [DHBSDKApiManager downloadDataWithUpdateItem:updateItem dataType:DHBDownloadPackageTypeFull progressBlock:^(double progress) {
+                          [DHBSDKApiManager downloadDataWithUpdateItem:updateItem dataType:DHBDownloadPackageTypeDelta progressBlock:^(double progress) {
                               NSLog(@"进度:%f",progress);
                           } completionHandler:^(NSError *error) {
                               NSLog(@"下载完成 error:%@",error);
@@ -158,7 +158,7 @@
     [button addTarget:self action:selector forControlEvents:UIControlEventTouchUpInside];
     
     CGSize titleSize = [title boundingRectWithSize:CGSizeMake(kScreen_W, kScrollView_H) options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading | NSStringDrawingTruncatesLastVisibleLine attributes:@{NSFontAttributeName : kButton_Font} context:nil].size;
-    titleSize.width = ceilf(titleSize.width) + 5;
+    titleSize.width = ceilf(titleSize.width) + 10;
     
     UIView *lastView = self.scrollView.subviews.lastObject;
     CGSize contentSize = self.scrollView.contentSize;
