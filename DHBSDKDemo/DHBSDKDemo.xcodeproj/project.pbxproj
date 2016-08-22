@@ -17,9 +17,9 @@
 		BF24E7071D648FDC00AA99CB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF24E7061D648FDC00AA99CB /* libc++.tbd */; };
 		BF24E7091D648FE800AA99CB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF24E7081D648FE800AA99CB /* libz.tbd */; };
 		BF24E70B1D648FEE00AA99CB /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF24E70A1D648FEE00AA99CB /* libbz2.tbd */; };
-		BF6C50691D6AE374007BFA35 /* libDHBSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF6C505B1D6AE374007BFA35 /* libDHBSDK.a */; };
-		BF6C506A1D6AE374007BFA35 /* 0_mtyF_full.zip in Resources */ = {isa = PBXBuildFile; fileRef = BF6C505D1D6AE374007BFA35 /* 0_mtyF_full.zip */; };
-		BF6C506B1D6AE374007BFA35 /* service_icon.zip in Resources */ = {isa = PBXBuildFile; fileRef = BF6C505E1D6AE374007BFA35 /* service_icon.zip */; };
+		BFBCE6001D6AF156002CED16 /* libDHBSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBCE5F21D6AF156002CED16 /* libDHBSDK.a */; };
+		BFBCE6011D6AF156002CED16 /* 0_mtyF_full.zip in Resources */ = {isa = PBXBuildFile; fileRef = BFBCE5F41D6AF156002CED16 /* 0_mtyF_full.zip */; };
+		BFBCE6021D6AF156002CED16 /* service_icon.zip in Resources */ = {isa = PBXBuildFile; fileRef = BFBCE5F51D6AF156002CED16 /* service_icon.zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,17 +37,17 @@
 		BF24E7061D648FDC00AA99CB /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		BF24E7081D648FE800AA99CB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		BF24E70A1D648FEE00AA99CB /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
-		BF6C505A1D6AE374007BFA35 /* DHBSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDK.h; sourceTree = "<group>"; };
-		BF6C505B1D6AE374007BFA35 /* libDHBSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDHBSDK.a; sourceTree = "<group>"; };
-		BF6C505D1D6AE374007BFA35 /* 0_mtyF_full.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = 0_mtyF_full.zip; sourceTree = "<group>"; };
-		BF6C505E1D6AE374007BFA35 /* service_icon.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = service_icon.zip; sourceTree = "<group>"; };
-		BF6C50621D6AE374007BFA35 /* DHBErrorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBErrorHelper.h; sourceTree = "<group>"; };
-		BF6C50631D6AE374007BFA35 /* DHBSDKApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKApiManager.h; sourceTree = "<group>"; };
-		BF6C50641D6AE374007BFA35 /* DHBSDKCommonType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKCommonType.h; sourceTree = "<group>"; };
-		BF6C50651D6AE374007BFA35 /* DHBSDKNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKNetworkManager.h; sourceTree = "<group>"; };
-		BF6C50661D6AE374007BFA35 /* DHBSDKResolveFecherNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKResolveFecherNew.h; sourceTree = "<group>"; };
-		BF6C50671D6AE374007BFA35 /* DHBSDKResolveItemNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKResolveItemNew.h; sourceTree = "<group>"; };
-		BF6C50681D6AE374007BFA35 /* DHBSDKUpdateItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKUpdateItem.h; sourceTree = "<group>"; };
+		BFBCE5F11D6AF156002CED16 /* DHBSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDK.h; sourceTree = "<group>"; };
+		BFBCE5F21D6AF156002CED16 /* libDHBSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDHBSDK.a; sourceTree = "<group>"; };
+		BFBCE5F41D6AF156002CED16 /* 0_mtyF_full.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = 0_mtyF_full.zip; sourceTree = "<group>"; };
+		BFBCE5F51D6AF156002CED16 /* service_icon.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = service_icon.zip; sourceTree = "<group>"; };
+		BFBCE5F91D6AF156002CED16 /* DHBErrorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBErrorHelper.h; sourceTree = "<group>"; };
+		BFBCE5FA1D6AF156002CED16 /* DHBSDKApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKApiManager.h; sourceTree = "<group>"; };
+		BFBCE5FB1D6AF156002CED16 /* DHBSDKCommonType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKCommonType.h; sourceTree = "<group>"; };
+		BFBCE5FC1D6AF156002CED16 /* DHBSDKNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKNetworkManager.h; sourceTree = "<group>"; };
+		BFBCE5FD1D6AF156002CED16 /* DHBSDKResolveFecherNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKResolveFecherNew.h; sourceTree = "<group>"; };
+		BFBCE5FE1D6AF156002CED16 /* DHBSDKResolveItemNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKResolveItemNew.h; sourceTree = "<group>"; };
+		BFBCE5FF1D6AF156002CED16 /* DHBSDKUpdateItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKUpdateItem.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF24E70B1D648FEE00AA99CB /* libbz2.tbd in Frameworks */,
-				BF6C50691D6AE374007BFA35 /* libDHBSDK.a in Frameworks */,
+				BFBCE6001D6AF156002CED16 /* libDHBSDK.a in Frameworks */,
 				BF24E7091D648FE800AA99CB /* libz.tbd in Frameworks */,
 				BF24E7071D648FDC00AA99CB /* libc++.tbd in Frameworks */,
 			);
@@ -86,7 +86,7 @@
 		BF24E6D71D648EA300AA99CB /* DHBSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
-				BF6C50571D6AE374007BFA35 /* DHBSDK */,
+				BFBCE5EE1D6AF156002CED16 /* DHBSDK */,
 				BF24E6DB1D648EA300AA99CB /* AppDelegate.h */,
 				BF24E6DC1D648EA300AA99CB /* AppDelegate.m */,
 				BF24E6DE1D648EA300AA99CB /* ViewController.h */,
@@ -118,68 +118,68 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BF6C50571D6AE374007BFA35 /* DHBSDK */ = {
+		BFBCE5EE1D6AF156002CED16 /* DHBSDK */ = {
 			isa = PBXGroup;
 			children = (
-				BF6C50581D6AE374007BFA35 /* include */,
-				BF6C505B1D6AE374007BFA35 /* libDHBSDK.a */,
-				BF6C505C1D6AE374007BFA35 /* Resources */,
-				BF6C505F1D6AE374007BFA35 /* usr */,
+				BFBCE5EF1D6AF156002CED16 /* include */,
+				BFBCE5F21D6AF156002CED16 /* libDHBSDK.a */,
+				BFBCE5F31D6AF156002CED16 /* Resources */,
+				BFBCE5F61D6AF156002CED16 /* usr */,
 			);
 			path = DHBSDK;
 			sourceTree = "<group>";
 		};
-		BF6C50581D6AE374007BFA35 /* include */ = {
+		BFBCE5EF1D6AF156002CED16 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				BF6C50591D6AE374007BFA35 /* DHBSDK */,
+				BFBCE5F01D6AF156002CED16 /* DHBSDK */,
 			);
 			path = include;
 			sourceTree = "<group>";
 		};
-		BF6C50591D6AE374007BFA35 /* DHBSDK */ = {
+		BFBCE5F01D6AF156002CED16 /* DHBSDK */ = {
 			isa = PBXGroup;
 			children = (
-				BF6C505A1D6AE374007BFA35 /* DHBSDK.h */,
+				BFBCE5F11D6AF156002CED16 /* DHBSDK.h */,
 			);
 			path = DHBSDK;
 			sourceTree = "<group>";
 		};
-		BF6C505C1D6AE374007BFA35 /* Resources */ = {
+		BFBCE5F31D6AF156002CED16 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BF6C505D1D6AE374007BFA35 /* 0_mtyF_full.zip */,
-				BF6C505E1D6AE374007BFA35 /* service_icon.zip */,
+				BFBCE5F41D6AF156002CED16 /* 0_mtyF_full.zip */,
+				BFBCE5F51D6AF156002CED16 /* service_icon.zip */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		BF6C505F1D6AE374007BFA35 /* usr */ = {
+		BFBCE5F61D6AF156002CED16 /* usr */ = {
 			isa = PBXGroup;
 			children = (
-				BF6C50601D6AE374007BFA35 /* local */,
+				BFBCE5F71D6AF156002CED16 /* local */,
 			);
 			path = usr;
 			sourceTree = "<group>";
 		};
-		BF6C50601D6AE374007BFA35 /* local */ = {
+		BFBCE5F71D6AF156002CED16 /* local */ = {
 			isa = PBXGroup;
 			children = (
-				BF6C50611D6AE374007BFA35 /* include */,
+				BFBCE5F81D6AF156002CED16 /* include */,
 			);
 			path = local;
 			sourceTree = "<group>";
 		};
-		BF6C50611D6AE374007BFA35 /* include */ = {
+		BFBCE5F81D6AF156002CED16 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				BF6C50621D6AE374007BFA35 /* DHBErrorHelper.h */,
-				BF6C50631D6AE374007BFA35 /* DHBSDKApiManager.h */,
-				BF6C50641D6AE374007BFA35 /* DHBSDKCommonType.h */,
-				BF6C50651D6AE374007BFA35 /* DHBSDKNetworkManager.h */,
-				BF6C50661D6AE374007BFA35 /* DHBSDKResolveFecherNew.h */,
-				BF6C50671D6AE374007BFA35 /* DHBSDKResolveItemNew.h */,
-				BF6C50681D6AE374007BFA35 /* DHBSDKUpdateItem.h */,
+				BFBCE5F91D6AF156002CED16 /* DHBErrorHelper.h */,
+				BFBCE5FA1D6AF156002CED16 /* DHBSDKApiManager.h */,
+				BFBCE5FB1D6AF156002CED16 /* DHBSDKCommonType.h */,
+				BFBCE5FC1D6AF156002CED16 /* DHBSDKNetworkManager.h */,
+				BFBCE5FD1D6AF156002CED16 /* DHBSDKResolveFecherNew.h */,
+				BFBCE5FE1D6AF156002CED16 /* DHBSDKResolveItemNew.h */,
+				BFBCE5FF1D6AF156002CED16 /* DHBSDKUpdateItem.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
@@ -244,10 +244,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF24E6E81D648EA300AA99CB /* LaunchScreen.storyboard in Resources */,
-				BF6C506A1D6AE374007BFA35 /* 0_mtyF_full.zip in Resources */,
+				BFBCE6011D6AF156002CED16 /* 0_mtyF_full.zip in Resources */,
 				BF24E6E51D648EA300AA99CB /* Assets.xcassets in Resources */,
 				BF24E6E31D648EA300AA99CB /* Main.storyboard in Resources */,
-				BF6C506B1D6AE374007BFA35 /* service_icon.zip in Resources */,
+				BFBCE6021D6AF156002CED16 /* service_icon.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
