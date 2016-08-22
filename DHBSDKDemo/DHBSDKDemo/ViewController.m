@@ -72,7 +72,7 @@
 //                                      updateItem.fullSize = 2698755;
 //                                      updateItem.fullVersion = 61;
                           
-                          [DHBSDKApiManager downloadDataWithUpdateItem:updateItem dataType:DHBDownloadPackageTypeDelta progressBlock:^(double progress) {
+                          [DHBSDKApiManager downloadDataWithUpdateItem:updateItem dataType:DHBDownloadPackageTypeFull progressBlock:^(double progress) {
                               NSLog(@"进度:%f",progress);
                           } completionHandler:^(NSError *error) {
                               NSLog(@"下载完成 error:%@",error);
@@ -133,7 +133,7 @@
              shareGroupIdentifier:nil
                   completionBlock:^(NSError *error) {
                       
-                      [DHBSDKApiManager searchTeleNumber:@"12315" completionHandler:^(DHBSDKResolveItemNew *resolveItem, NSError *error) {
+                      [DHBSDKApiManager searchTeleNumber:@"869521718747057655" completionHandler:^(DHBSDKResolveItemNew *resolveItem, NSError *error) {
                           NSLog(@"%@",resolveItem);
                           NSLog(@"error:%@",error);
                       }];
