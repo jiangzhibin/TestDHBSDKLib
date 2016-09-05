@@ -15,10 +15,9 @@
 
 @implementation ViewController
 
-#define APIKEY_Download @"mtyFwikuZ8ARgmwhljlidzxbevhrWrjL"
+#define APIKEY @"mtyFwikuZ8ARgmwhljlidzxbevhrWrjL"
 
-#define APIKEY2 @"abFRSWVlxTYkhZYbCcZSdapLVlllteGX"
-#define APISIG2 @"E5UaGxNMkUxTVRrd01EbGtNemN5WlRoaFpUUmpZVFV3TnprM01UVT1ZV1l6TXpjell6QXlNVFV6TUdNMU4ySmtNMlExWXpWaU1XRm1OMlptTkdRPVpUSXlNR0UzWWpKalkyUXhNbUptWTJFNVl6QTRObUprTVRjNE1UUm1"
+#define APISIG @"nsFwF52FnwvbdjynaqmfKlyb7Tq8eqAlqKhyXoWBvkvag0H1zKFFETY6Ez4saafzTxsqpuRnm4SQaqdKj4khxFAkbaxppCJidgQw2ojFpm4WpUutqcpNuPoFad0xcpZwrgxizszkthcmxq1brXtozwCpDm5xcoTCygLdu"
 #define kDHBHost @"https://apis-ios.dianhua.cn/"
 
 - (void)viewDidLoad {
@@ -53,8 +52,8 @@
  */
 - (void)downloadAction {
 //    [DHBSDKApiManager shareManager].downloadNetworkType = DHBSDKDownloadNetworkTypeAllAllow;
-    [DHBSDKApiManager registerApp:APIKEY_Download
-                        signature:APISIG2
+    [DHBSDKApiManager registerApp:APIKEY
+                        signature:APISIG
                              host:kDHBHost
                            cityId:nil
              shareGroupIdentifier:nil
@@ -108,8 +107,8 @@
  在线标记
  */
 - (void)onlineMark {
-    [DHBSDKApiManager registerApp:APIKEY2
-                        signature:APISIG2
+    [DHBSDKApiManager registerApp:APIKEY
+                        signature:APISIG
                              host:kDHBHost
                            cityId:nil
              shareGroupIdentifier:nil
@@ -126,8 +125,8 @@
  在线识别
  */
 - (void)onlineRecognize {
-    [DHBSDKApiManager registerApp:APIKEY2
-                        signature:APISIG2
+    [DHBSDKApiManager registerApp:APIKEY
+                        signature:APISIG
                              host:kDHBHost
                            cityId:nil
              shareGroupIdentifier:nil

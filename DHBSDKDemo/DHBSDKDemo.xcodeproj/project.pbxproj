@@ -17,8 +17,8 @@
 		BF24E7071D648FDC00AA99CB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF24E7061D648FDC00AA99CB /* libc++.tbd */; };
 		BF24E7091D648FE800AA99CB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF24E7081D648FE800AA99CB /* libz.tbd */; };
 		BF24E70B1D648FEE00AA99CB /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF24E70A1D648FEE00AA99CB /* libbz2.tbd */; };
-		BF6F98341D6C2E6000B8694F /* libDHBSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF6F98271D6C2E6000B8694F /* libDHBSDK.a */; };
-		BF6F98351D6C2E6000B8694F /* 0_mtyF_full.zip in Resources */ = {isa = PBXBuildFile; fileRef = BF6F98291D6C2E6000B8694F /* 0_mtyF_full.zip */; };
+		BFC162CF1D767FEA0034244B /* libDHBSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC162C21D767FEA0034244B /* libDHBSDK.a */; };
+		BFC162D01D767FEA0034244B /* 0_mtyF_full.zip in Resources */ = {isa = PBXBuildFile; fileRef = BFC162C41D767FEA0034244B /* 0_mtyF_full.zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,16 +36,16 @@
 		BF24E7061D648FDC00AA99CB /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		BF24E7081D648FE800AA99CB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		BF24E70A1D648FEE00AA99CB /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
-		BF6F98261D6C2E6000B8694F /* DHBSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDK.h; sourceTree = "<group>"; };
-		BF6F98271D6C2E6000B8694F /* libDHBSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDHBSDK.a; sourceTree = "<group>"; };
-		BF6F98291D6C2E6000B8694F /* 0_mtyF_full.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = 0_mtyF_full.zip; sourceTree = "<group>"; };
-		BF6F982D1D6C2E6000B8694F /* DHBErrorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBErrorHelper.h; sourceTree = "<group>"; };
-		BF6F982E1D6C2E6000B8694F /* DHBSDKApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKApiManager.h; sourceTree = "<group>"; };
-		BF6F982F1D6C2E6000B8694F /* DHBSDKCommonType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKCommonType.h; sourceTree = "<group>"; };
-		BF6F98301D6C2E6000B8694F /* DHBSDKNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKNetworkManager.h; sourceTree = "<group>"; };
-		BF6F98311D6C2E6000B8694F /* DHBSDKResolveFecherNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKResolveFecherNew.h; sourceTree = "<group>"; };
-		BF6F98321D6C2E6000B8694F /* DHBSDKResolveItemNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKResolveItemNew.h; sourceTree = "<group>"; };
-		BF6F98331D6C2E6000B8694F /* DHBSDKUpdateItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKUpdateItem.h; sourceTree = "<group>"; };
+		BFC162C11D767FEA0034244B /* DHBSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDK.h; sourceTree = "<group>"; };
+		BFC162C21D767FEA0034244B /* libDHBSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDHBSDK.a; sourceTree = "<group>"; };
+		BFC162C41D767FEA0034244B /* 0_mtyF_full.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = 0_mtyF_full.zip; sourceTree = "<group>"; };
+		BFC162C81D767FEA0034244B /* DHBErrorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBErrorHelper.h; sourceTree = "<group>"; };
+		BFC162C91D767FEA0034244B /* DHBSDKApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKApiManager.h; sourceTree = "<group>"; };
+		BFC162CA1D767FEA0034244B /* DHBSDKCommonType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKCommonType.h; sourceTree = "<group>"; };
+		BFC162CB1D767FEA0034244B /* DHBSDKNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKNetworkManager.h; sourceTree = "<group>"; };
+		BFC162CC1D767FEA0034244B /* DHBSDKResolveFecherNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKResolveFecherNew.h; sourceTree = "<group>"; };
+		BFC162CD1D767FEA0034244B /* DHBSDKResolveItemNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKResolveItemNew.h; sourceTree = "<group>"; };
+		BFC162CE1D767FEA0034244B /* DHBSDKUpdateItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBSDKUpdateItem.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF24E70B1D648FEE00AA99CB /* libbz2.tbd in Frameworks */,
-				BF6F98341D6C2E6000B8694F /* libDHBSDK.a in Frameworks */,
+				BFC162CF1D767FEA0034244B /* libDHBSDK.a in Frameworks */,
 				BF24E7091D648FE800AA99CB /* libz.tbd in Frameworks */,
 				BF24E7071D648FDC00AA99CB /* libc++.tbd in Frameworks */,
 			);
@@ -84,7 +84,7 @@
 		BF24E6D71D648EA300AA99CB /* DHBSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
-				BF6F98231D6C2E6000B8694F /* DHBSDK */,
+				BFC162BE1D767FEA0034244B /* DHBSDK */,
 				BF24E6DB1D648EA300AA99CB /* AppDelegate.h */,
 				BF24E6DC1D648EA300AA99CB /* AppDelegate.m */,
 				BF24E6DE1D648EA300AA99CB /* ViewController.h */,
@@ -116,67 +116,67 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BF6F98231D6C2E6000B8694F /* DHBSDK */ = {
+		BFC162BE1D767FEA0034244B /* DHBSDK */ = {
 			isa = PBXGroup;
 			children = (
-				BF6F98241D6C2E6000B8694F /* include */,
-				BF6F98271D6C2E6000B8694F /* libDHBSDK.a */,
-				BF6F98281D6C2E6000B8694F /* Resources */,
-				BF6F982A1D6C2E6000B8694F /* usr */,
+				BFC162BF1D767FEA0034244B /* include */,
+				BFC162C21D767FEA0034244B /* libDHBSDK.a */,
+				BFC162C31D767FEA0034244B /* Resources */,
+				BFC162C51D767FEA0034244B /* usr */,
 			);
 			path = DHBSDK;
 			sourceTree = "<group>";
 		};
-		BF6F98241D6C2E6000B8694F /* include */ = {
+		BFC162BF1D767FEA0034244B /* include */ = {
 			isa = PBXGroup;
 			children = (
-				BF6F98251D6C2E6000B8694F /* DHBSDK */,
+				BFC162C01D767FEA0034244B /* DHBSDK */,
 			);
 			path = include;
 			sourceTree = "<group>";
 		};
-		BF6F98251D6C2E6000B8694F /* DHBSDK */ = {
+		BFC162C01D767FEA0034244B /* DHBSDK */ = {
 			isa = PBXGroup;
 			children = (
-				BF6F98261D6C2E6000B8694F /* DHBSDK.h */,
+				BFC162C11D767FEA0034244B /* DHBSDK.h */,
 			);
 			path = DHBSDK;
 			sourceTree = "<group>";
 		};
-		BF6F98281D6C2E6000B8694F /* Resources */ = {
+		BFC162C31D767FEA0034244B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BF6F98291D6C2E6000B8694F /* 0_mtyF_full.zip */,
+				BFC162C41D767FEA0034244B /* 0_mtyF_full.zip */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		BF6F982A1D6C2E6000B8694F /* usr */ = {
+		BFC162C51D767FEA0034244B /* usr */ = {
 			isa = PBXGroup;
 			children = (
-				BF6F982B1D6C2E6000B8694F /* local */,
+				BFC162C61D767FEA0034244B /* local */,
 			);
 			path = usr;
 			sourceTree = "<group>";
 		};
-		BF6F982B1D6C2E6000B8694F /* local */ = {
+		BFC162C61D767FEA0034244B /* local */ = {
 			isa = PBXGroup;
 			children = (
-				BF6F982C1D6C2E6000B8694F /* include */,
+				BFC162C71D767FEA0034244B /* include */,
 			);
 			path = local;
 			sourceTree = "<group>";
 		};
-		BF6F982C1D6C2E6000B8694F /* include */ = {
+		BFC162C71D767FEA0034244B /* include */ = {
 			isa = PBXGroup;
 			children = (
-				BF6F982D1D6C2E6000B8694F /* DHBErrorHelper.h */,
-				BF6F982E1D6C2E6000B8694F /* DHBSDKApiManager.h */,
-				BF6F982F1D6C2E6000B8694F /* DHBSDKCommonType.h */,
-				BF6F98301D6C2E6000B8694F /* DHBSDKNetworkManager.h */,
-				BF6F98311D6C2E6000B8694F /* DHBSDKResolveFecherNew.h */,
-				BF6F98321D6C2E6000B8694F /* DHBSDKResolveItemNew.h */,
-				BF6F98331D6C2E6000B8694F /* DHBSDKUpdateItem.h */,
+				BFC162C81D767FEA0034244B /* DHBErrorHelper.h */,
+				BFC162C91D767FEA0034244B /* DHBSDKApiManager.h */,
+				BFC162CA1D767FEA0034244B /* DHBSDKCommonType.h */,
+				BFC162CB1D767FEA0034244B /* DHBSDKNetworkManager.h */,
+				BFC162CC1D767FEA0034244B /* DHBSDKResolveFecherNew.h */,
+				BFC162CD1D767FEA0034244B /* DHBSDKResolveItemNew.h */,
+				BFC162CE1D767FEA0034244B /* DHBSDKUpdateItem.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
@@ -241,7 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF24E6E81D648EA300AA99CB /* LaunchScreen.storyboard in Resources */,
-				BF6F98351D6C2E6000B8694F /* 0_mtyF_full.zip in Resources */,
+				BFC162D01D767FEA0034244B /* 0_mtyF_full.zip in Resources */,
 				BF24E6E51D648EA300AA99CB /* Assets.xcassets in Resources */,
 				BF24E6E31D648EA300AA99CB /* Main.storyboard in Resources */,
 			);
